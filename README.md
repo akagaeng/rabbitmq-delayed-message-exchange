@@ -9,7 +9,9 @@ This image contains:
 
 ## How to use
 
-### Sample docker-compose.yaml
+### Sample usage
+
+#### Create docker-compose.yaml
 
 ```
 version: '3.3'
