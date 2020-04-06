@@ -7,8 +7,7 @@ This image contains:
 * RabbitMQ Plugin: rabbitmq_management
 * RabbitMQ Plugin: rabbitmq_delayed_message_exchange for 3.7.x / 3.8.x
 
-## How to use
-
+## Usage
 ### docker run
 
 ```
@@ -45,10 +44,14 @@ services:
 $ docker-compose up -d
 ```
 
-#### Open rabbitmq management
+### Open rabbitmq management
 
 - Open http://localhost:8080/ on your browser
 - Login with `rabbit` / `rabbit`
+
+## Additional Configuration
+- Visit [rabitmq official image hub](https://hub.docker.com/_/rabbitmq) 
+
 
 ## References
 * [RabbitMQ Official images](https://hub.docker.com/_/rabbitmq)
