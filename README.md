@@ -9,7 +9,19 @@ This image contains:
 
 ## How to use
 
-### Sample usage
+### docker run
+
+```
+docker run -d \
+        --name rabbitmq \
+        -p 5672:5672 \
+        -p 8080:15672 \
+        -e RABBITMQ_DEFAULT_USER=rabbit \
+        -e RABBITMQ_DEFAULT_PASS=rabbit \
+        akagaeng/rabbitmq-delayed-message-exchange
+```
+
+### docker-compose up
 
 #### Create docker-compose.yaml
 
@@ -28,6 +40,7 @@ services:
 ```
 
 #### Run docker-compose
+
 ```
 $ docker-compose up -d
 ```
