@@ -12,7 +12,7 @@ This image contains:
 ### Using docker
 
 ```
-docker run -d \
+$ docker run -d \
         --name rabbitmq \
         -p 5672:5672 \
         -p 8080:15672 \
@@ -47,7 +47,7 @@ $ docker-compose up -d
 
 ### Open rabbitmq management
 
-- Open http://localhost:8080/ on your browser
+- Open http://localhost:8080/ in a browser
 - Login with `rabbit` / `rabbit`
 
 ## Additional Configuration
