@@ -8,7 +8,8 @@ This image contains:
 * RabbitMQ Plugin: rabbitmq_delayed_message_exchange for 3.7.x / 3.8.x
 
 ## Usage
-### docker run
+
+### Using docker
 
 ```
 docker run -d \
@@ -20,7 +21,7 @@ docker run -d \
         akagaeng/rabbitmq-delayed-message-exchange
 ```
 
-### docker-compose up
+### Using docker-compose
 
 #### Create docker-compose.yaml
 
