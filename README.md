@@ -4,6 +4,10 @@
 
 Hosted at docker hub 
 * https://hub.docker.com/repository/docker/akagaeng/rabbitmq-delayed-message-exchange
+* Automated build
+  * Scenario: Match versions
+  * Source type: Tag (git tag: `/^[0-9.]+$/`) e.g. `3.8.3`
+  * Docker Tag: `{sourceref}` e.g. `3.8.3`
 
 This image contains:
 * RabbitMQ 3.8.3
