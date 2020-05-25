@@ -2,6 +2,9 @@
 
 ## Overview
 
+Hosted at docker hub 
+* https://hub.docker.com/repository/docker/akagaeng/rabbitmq-delayed-message-exchange
+
 This image contains:
 * RabbitMQ 3.8.3
 * RabbitMQ Plugin: rabbitmq_management
